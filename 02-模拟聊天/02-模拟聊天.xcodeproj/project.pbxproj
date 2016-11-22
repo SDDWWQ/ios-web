@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E30E6E31DE401A700B83BDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E30E6E21DE401A700B83BDC /* main.m */; };
+		7E30E6E61DE401A700B83BDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E30E6E51DE401A700B83BDC /* AppDelegate.m */; };
+		7E30E6E91DE401A700B83BDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E30E6E81DE401A700B83BDC /* ViewController.m */; };
+		7E30E6EC1DE401A700B83BDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E30E6EA1DE401A700B83BDC /* Main.storyboard */; };
+		7E30E6EE1DE401A700B83BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E30E6ED1DE401A700B83BDC /* Assets.xcassets */; };
+		7E30E6F11DE401A700B83BDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E30E6EF1DE401A700B83BDC /* LaunchScreen.storyboard */; };
+		7E30E6FC1DE401A800B83BDC /* _2_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E30E6FB1DE401A800B83BDC /* _2_____Tests.m */; };
+		7E30E7071DE401A800B83BDC /* _2_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E30E7061DE401A800B83BDC /* _2_____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E30E6F81DE401A800B83BDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E30E6D61DE401A700B83BDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E30E6DD1DE401A700B83BDC;
+			remoteInfo = "02-模拟聊天";
+		};
+		7E30E7031DE401A800B83BDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E30E6D61DE401A700B83BDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E30E6DD1DE401A700B83BDC;
+			remoteInfo = "02-模拟聊天";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E30E6DE1DE401A700B83BDC /* 02-模拟聊天.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-模拟聊天.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E30E6E21DE401A700B83BDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E30E6E41DE401A700B83BDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E30E6E51DE401A700B83BDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E30E6E71DE401A700B83BDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E30E6E81DE401A700B83BDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E30E6EB1DE401A700B83BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E30E6ED1DE401A700B83BDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E30E6F01DE401A700B83BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E30E6F21DE401A700B83BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E30E6F71DE401A800B83BDC /* 02-模拟聊天Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-模拟聊天Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E30E6FB1DE401A800B83BDC /* _2_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2_____Tests.m"; sourceTree = "<group>"; };
+		7E30E6FD1DE401A800B83BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E30E7021DE401A800B83BDC /* 02-模拟聊天UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-模拟聊天UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E30E7061DE401A800B83BDC /* _2_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2_____UITests.m"; sourceTree = "<group>"; };
+		7E30E7081DE401A800B83BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E30E6DB1DE401A700B83BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E30E6F41DE401A800B83BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E30E6FF1DE401A800B83BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E30E6D51DE401A700B83BDC = {
+			isa = PBXGroup;
+			children = (
+				7E30E6E01DE401A700B83BDC /* 02-模拟聊天 */,
+				7E30E6FA1DE401A800B83BDC /* 02-模拟聊天Tests */,
+				7E30E7051DE401A800B83BDC /* 02-模拟聊天UITests */,
+				7E30E6DF1DE401A700B83BDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E30E6DF1DE401A700B83BDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E30E6DE1DE401A700B83BDC /* 02-模拟聊天.app */,
+				7E30E6F71DE401A800B83BDC /* 02-模拟聊天Tests.xctest */,
+				7E30E7021DE401A800B83BDC /* 02-模拟聊天UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E30E6E01DE401A700B83BDC /* 02-模拟聊天 */ = {
+			isa = PBXGroup;
+			children = (
+				7E30E6E41DE401A700B83BDC /* AppDelegate.h */,
+				7E30E6E51DE401A700B83BDC /* AppDelegate.m */,
+				7E30E6E71DE401A700B83BDC /* ViewController.h */,
+				7E30E6E81DE401A700B83BDC /* ViewController.m */,
+				7E30E6EA1DE401A700B83BDC /* Main.storyboard */,
+				7E30E6ED1DE401A700B83BDC /* Assets.xcassets */,
+				7E30E6EF1DE401A700B83BDC /* LaunchScreen.storyboard */,
+				7E30E6F21DE401A700B83BDC /* Info.plist */,
+				7E30E6E11DE401A700B83BDC /* Supporting Files */,
+			);
+			path = "02-模拟聊天";
+			sourceTree = "<group>";
+		};
+		7E30E6E11DE401A700B83BDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E30E6E21DE401A700B83BDC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E30E6FA1DE401A800B83BDC /* 02-模拟聊天Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7E30E6FB1DE401A800B83BDC /* _2_____Tests.m */,
+				7E30E6FD1DE401A800B83BDC /* Info.plist */,
+			);
+			path = "02-模拟聊天Tests";
+			sourceTree = "<group>";
+		};
+		7E30E7051DE401A800B83BDC /* 02-模拟聊天UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E30E7061DE401A800B83BDC /* _2_____UITests.m */,
+				7E30E7081DE401A800B83BDC /* Info.plist */,
+			);
+			path = "02-模拟聊天UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E30E6DD1DE401A700B83BDC /* 02-模拟聊天 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E30E70B1DE401A800B83BDC /* Build configuration list for PBXNativeTarget "02-模拟聊天" */;
+			buildPhases = (
+				7E30E6DA1DE401A700B83BDC /* Sources */,
+				7E30E6DB1DE401A700B83BDC /* Frameworks */,
+				7E30E6DC1DE401A700B83BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-模拟聊天";
+			productName = "02-模拟聊天";
+			productReference = 7E30E6DE1DE401A700B83BDC /* 02-模拟聊天.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E30E6F61DE401A800B83BDC /* 02-模拟聊天Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E30E70E1DE401A800B83BDC /* Build configuration list for PBXNativeTarget "02-模拟聊天Tests" */;
+			buildPhases = (
+				7E30E6F31DE401A800B83BDC /* Sources */,
+				7E30E6F41DE401A800B83BDC /* Frameworks */,
+				7E30E6F51DE401A800B83BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E30E6F91DE401A800B83BDC /* PBXTargetDependency */,
+			);
+			name = "02-模拟聊天Tests";
+			productName = "02-模拟聊天Tests";
+			productReference = 7E30E6F71DE401A800B83BDC /* 02-模拟聊天Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E30E7011DE401A800B83BDC /* 02-模拟聊天UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E30E7111DE401A800B83BDC /* Build configuration list for PBXNativeTarget "02-模拟聊天UITests" */;
+			buildPhases = (
+				7E30E6FE1DE401A800B83BDC /* Sources */,
+				7E30E6FF1DE401A800B83BDC /* Frameworks */,
+				7E30E7001DE401A800B83BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E30E7041DE401A800B83BDC /* PBXTargetDependency */,
+			);
+			name = "02-模拟聊天UITests";
+			productName = "02-模拟聊天UITests";
+			productReference = 7E30E7021DE401A800B83BDC /* 02-模拟聊天UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E30E6D61DE401A700B83BDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = SDD;
+				TargetAttributes = {
+					7E30E6DD1DE401A700B83BDC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					7E30E6F61DE401A800B83BDC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E30E6DD1DE401A700B83BDC;
+					};
+					7E30E7011DE401A800B83BDC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E30E6DD1DE401A700B83BDC;
+					};
+				};
+			};
+			buildConfigurationList = 7E30E6D91DE401A700B83BDC /* Build configuration list for PBXProject "02-模拟聊天" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E30E6D51DE401A700B83BDC;
+			productRefGroup = 7E30E6DF1DE401A700B83BDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E30E6DD1DE401A700B83BDC /* 02-模拟聊天 */,
+				7E30E6F61DE401A800B83BDC /* 02-模拟聊天Tests */,
+				7E30E7011DE401A800B83BDC /* 02-模拟聊天UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E30E6DC1DE401A700B83BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E30E6F11DE401A700B83BDC /* LaunchScreen.storyboard in Resources */,
+				7E30E6EE1DE401A700B83BDC /* Assets.xcassets in Resources */,
+				7E30E6EC1DE401A700B83BDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E30E6F51DE401A800B83BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E30E7001DE401A800B83BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E30E6DA1DE401A700B83BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E30E6E91DE401A700B83BDC /* ViewController.m in Sources */,
+				7E30E6E61DE401A700B83BDC /* AppDelegate.m in Sources */,
+				7E30E6E31DE401A700B83BDC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E30E6F31DE401A800B83BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E30E6FC1DE401A800B83BDC /* _2_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E30E6FE1DE401A800B83BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E30E7071DE401A800B83BDC /* _2_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E30E6F91DE401A800B83BDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E30E6DD1DE401A700B83BDC /* 02-模拟聊天 */;
+			targetProxy = 7E30E6F81DE401A800B83BDC /* PBXContainerItemProxy */;
+		};
+		7E30E7041DE401A800B83BDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E30E6DD1DE401A700B83BDC /* 02-模拟聊天 */;
+			targetProxy = 7E30E7031DE401A800B83BDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E30E6EA1DE401A700B83BDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E30E6EB1DE401A700B83BDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E30E6EF1DE401A700B83BDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E30E6F01DE401A700B83BDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E30E7091DE401A800B83BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E30E70A1DE401A800B83BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E30E70C1DE401A800B83BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-模拟聊天/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-2-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E30E70D1DE401A800B83BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-模拟聊天/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-2-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E30E70F1DE401A800B83BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "02-模拟聊天Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-2-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-模拟聊天.app/02-模拟聊天";
+			};
+			name = Debug;
+		};
+		7E30E7101DE401A800B83BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "02-模拟聊天Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-2-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-模拟聊天.app/02-模拟聊天";
+			};
+			name = Release;
+		};
+		7E30E7121DE401A800B83BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "02-模拟聊天UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-2-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "02-模拟聊天";
+			};
+			name = Debug;
+		};
+		7E30E7131DE401A800B83BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "02-模拟聊天UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-2-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "02-模拟聊天";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E30E6D91DE401A700B83BDC /* Build configuration list for PBXProject "02-模拟聊天" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E30E7091DE401A800B83BDC /* Debug */,
+				7E30E70A1DE401A800B83BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E30E70B1DE401A800B83BDC /* Build configuration list for PBXNativeTarget "02-模拟聊天" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E30E70C1DE401A800B83BDC /* Debug */,
+				7E30E70D1DE401A800B83BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E30E70E1DE401A800B83BDC /* Build configuration list for PBXNativeTarget "02-模拟聊天Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E30E70F1DE401A800B83BDC /* Debug */,
+				7E30E7101DE401A800B83BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E30E7111DE401A800B83BDC /* Build configuration list for PBXNativeTarget "02-模拟聊天UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E30E7121DE401A800B83BDC /* Debug */,
+				7E30E7131DE401A800B83BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E30E6D61DE401A700B83BDC /* Project object */;
+}
